@@ -6,3 +6,20 @@ body{
 div{
     margin-bottom: 20px;
 }
+
+#desc {
+    width: 50%;
+    margin: auto;
+}
+
+#imgs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+#imgs > img {
+    width: 250px; 
+    margin: 20px;
+}
